@@ -1,0 +1,22 @@
+{
+  "tokenStandard": "nft",
+  "number": 3,
+  "symbol": "DBZ",
+  "sellerFeeBasisPoints": 1,
+  "isMutable": true,
+  "isSequential": false,
+  "creators": [
+    {
+      "address": "Csstk8ubn3u5vUbdBNZ3USQCvB1Q6fgEwBfQ6BcMefTc",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "nft_storage",
+  "ruleSet": null,
+  "awsConfig": null,
+  "nftStorageAuthToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGNEMjUzZWVDMDE1ODM0MTFBNkY4OGNiQTMyNzkzYjA3MDQ3N2I4ZmUiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY4MzQ5MTEzNDE5NSwibmFtZSI6ImJ1aWxkc3BhY2UifQ.QeVvljb3myHRQfrY0TCHnSl0lrdkctIHxnpGZGMEip4",
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": null
+}

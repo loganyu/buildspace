@@ -1,0 +1,42 @@
+{
+  "program": {
+    "candyMachine": "Bj5Q8hXVjY7qqPwA1u5fzV6bcpsXpezvrvpk21fjtMQc",
+    "candyGuard": "",
+    "candyMachineCreator": "6dGe56NkdL2rN4uXD3LYHxUweZicvYTPnh3er4adahvV",
+    "collectionMint": "3FBda3RovtrNk8LLRJdcu5SWoJZ5yFrz7sstofS4Z3Sx"
+  },
+  "items": {
+    "-1": {
+      "name": "Dragon Ball Z",
+      "image_hash": "d2a10db8e45d36046e29cc8ce59a911b24b5309e47a5838faf274b9dbe91d7f7",
+      "image_link": "https://nftstorage.link/ipfs/bafybeidoimd7kr4bt54ibukw5jiffgqmv3zxklotxpdegl5dtktot4haje/collection.png",
+      "metadata_hash": "31f6ee310b2785970474e697a5b3783e1d4dfb5370f95657ca220be5273514e2",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeidqfdi67i4eaofimvvb4bwx6zkinmccsjp4gr5f4ftvuiceo4ncm4/collection.json",
+      "onChain": true
+    },
+    "0": {
+      "name": "Gogeta",
+      "image_hash": "188239d694d60e7bbbe178b36476516116b8269488cdf9099d9b15a8148f08d5",
+      "image_link": "https://nftstorage.link/ipfs/bafybeif2mqv24dhujegwghr6r5z3p3uzv3ng27thpx7bwmipzs5rpqld3y/0.png",
+      "metadata_hash": "a314c8fffee64c23c4bdd3c0e9406e1fea6eb77e9bfc490de2c15633a91f95a7",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeih6i24kdux3tpeii2kaem4xdpxzk7hl4b5gijgxzy3euf23oov4x4/0.json",
+      "onChain": true
+    },
+    "1": {
+      "name": "Goku Black Zamasu",
+      "image_hash": "91e33f8e2e5790b764247b08ac9a5da2c6e04fbf888adb39588dc0328d05bbeb",
+      "image_link": "https://nftstorage.link/ipfs/bafybeif2mqv24dhujegwghr6r5z3p3uzv3ng27thpx7bwmipzs5rpqld3y/1.png",
+      "metadata_hash": "0b2babef92c264239e6cc5e17808d1b62956cc3fb329c3fc1824565ed40919c4",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeih6i24kdux3tpeii2kaem4xdpxzk7hl4b5gijgxzy3euf23oov4x4/1.json",
+      "onChain": true
+    },
+    "2": {
+      "name": "Goku Black Zamasu 2",
+      "image_hash": "6df9fd2991a687c3c713d0cf5a228de2d59c73209fcd6b74282ed1fa9fac5d38",
+      "image_link": "https://nftstorage.link/ipfs/bafybeif2mqv24dhujegwghr6r5z3p3uzv3ng27thpx7bwmipzs5rpqld3y/2.png",
+      "metadata_hash": "7faea456872959b64c39390ac591fced5a5ccf0bea215899c868d134151c7b41",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeih6i24kdux3tpeii2kaem4xdpxzk7hl4b5gijgxzy3euf23oov4x4/2.json",
+      "onChain": true
+    }
+  }
+}

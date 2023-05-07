@@ -1,0 +1,20 @@
+{
+    "name": "Goku Black Zamasu 2",
+    "symbol": "DBZ",
+    "description": "Collection of DBZ fighters on the blockchain. This is the number 3/3.",
+    "image": "2.png",
+    "attributes": [
+      {
+        "trait_type": "Number",
+        "value": "60000"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "2.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  }
