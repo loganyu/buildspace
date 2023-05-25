@@ -6,12 +6,14 @@ dotenv.config();
 
 const PROGRAM_ID = new Web3.PublicKey("ChT1B39WKLS8qUrkLvFDXMhEJ4F1XZzwUNHUt4AU9aVa")
 const PROGRAM_DATA_PUBLIC_KEY = new Web3.PublicKey("Ah9K7dQ8EHaZqcAsgBW8w37yN2eAy3koFmUn4x3CJtod")
+const SEND_TO_PUBLIC_KEY = new Web3.PublicKey("CcPDbb1KyuTMiCWqSS4HENL81pqQjTYvnfgjnbgfZHX")
 
 async function main() {
   const connection = new Web3.Connection(Web3.clusterApiUrl('devnet'));
   const signer = await initializeKeypair(connection);
   await airdropSolIfNeeded(signer, connection);
   await pingProgram(connection, signer)
+  await sendSol(connection, 0.1*Web3.LAMPORTS_PER_SOL, SEND_TO_PUBLIC_KEY, signer)
 
   console.log("Public key:", signer.publicKey.toBase58());
 }
@@ -98,4 +100,21 @@ async function pingProgram(connection: Web3.Connection, payer: Web3.Keypair) {
   console.log(
     `Transaction https://explorer.solana.com/tx/${transactionSignature}?cluster=devnet`
     )
+}
+
+async function sendSol(connection: Web3.Connection, amount: number, to: Web3.PublicKey, sender: Web3.Keypair) {
+  const transaction = new Web3.Transaction()
+
+  const sendSolInstruction = Web3.SystemProgram.transfer(
+      {
+          fromPubkey: sender.publicKey,
+          toPubkey: to, 
+          lamports: amount,
+      }
+  )
+
+  transaction.add(sendSolInstruction)
+
+  const sig = await Web3.sendAndConfirmTransaction(connection, transaction, [sender])
+  console.log(`You can view your transaction on the Solana Explorer at:\nhttps://explorer.solana.com/tx/${sig}?cluster=devnet`);
 }
